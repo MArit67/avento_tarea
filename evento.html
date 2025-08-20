@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <title>Pet Adoption Event</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="estilos.css" />
+  <meta name="description" content="Portafolio de Mariana Acevedo - Técnica en Desarrollo Web y Análisis y Desarrollo de Software. Proyectos, habilidades y contacto." />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Evento Adopcion M.M</a>
+      <button id="btn-menu" class="btn-menu" aria-label="Abrir menú">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul id="menu" class="menu">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre el evento</a></li>
+        <li><a href="#projects">Ubicacion</a></li>
+        <li><a href="#contact">registro</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner" >
+    <div class="carousel-item active">
+      <img src="../portadolio mariana/img/perros-felices.webp" class="d-block w-100" alt="..." height="700px" >
+    </div>
+    <div class="carousel-item">
+      <img src="../portadolio mariana/img/organizaciones para adoptar perros (1).jpg" class="d-block w-100" alt="..."  height="700px">
+    </div>
+    <div class="carousel-item">
+      <img src="../portadolio mariana/img/senales-de-que-tu-perro-es-feliz.jpg" class="d-block w-100" alt="..." height="700px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<br>
+<div>
+ <table align="center" border="2">
+  <tr>
+    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/llepAsDzoAA?si=h16anXW34tbq_SKB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen width="50px" controls muted autoplay loop ></iframe></td>
+<hr>
+    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/rsTLyukvxGU?si=vO3czaoDisfmlZet" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen width="50px" controls muted autoplay loop></iframe></td>
+  </tr>
+  
+ </table>
+</div>
+  <main>
+    <section id="home" class="hero container" data-aos="fade-up">
+      <div class="hero__text">
+        <h1> <span>Adopta no compres</span></h1>
+        <p>En este evento preparate para encontrar un nuevo miembro de la familia, que te acompañara por siempre</p>
+        <div class="cta">
+          <a class="btn primary" href=""><i class=""></i> instagram</a>
+          <a class="btn outline" href=""><i class=""></i> Facebook</a>
+        </div>
+      </div>
+
+      <div class="hero__img" aria-hidden="true">
+        
+        <img src="../portadolio mariana/img/adoptar-no-comprar-divertido-vector-dibujado-mano-diciendo-con-la-cabeza-de-perro-ilustración-manuscrita-frase-para-adopción-169588267.webp" alt="Avatar de Mariana Acevedo">
+      </div>
+    </section>
+
+    <section id="about" class="about container" data-aos="fade-up">
+      <h2>SOBRE EL EVENTO</h2>
+      <p>
+        Te invitamos a unirte a nuestro emocionante evento de adopción de mascotas, donde adorables perros y gatos están esperando encontrar un hogar lleno de amor. Es una oportunidad perfecta para conocer a tu futuro compañero peludo y darle una segunda oportunidad
+      </p>
+
+    </section>
+
+    <section id="projects" class="projects container" data-aos="fade-up">
+      <h2>Como llegar</h2>
+      <div class="grid">
+
+
+        <article class="card">
+          <h3>Ubicacion</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15866.657264024308!2d-75.64498163022458!3d6.175674200000024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e468147129f1295%3A0xb98b2de50e998bdc!2sUrbanizaci%C3%B3n%20Sierra%20Campestre!5e0!3m2!1ses-419!2sco!4v1754408841866!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+        </article>
+
+        <article class="card">
+          <h3>street view</h3>
+         <iframe src="https://www.google.com/maps/embed?pb=!3m2!1ses-419!2sco!4v1755617903973!5m2!1ses-419!2sco!6m8!1m7!1sqtGzeUB7DxTY7ua5BOaSkg!2m2!1d6.166984427679743!2d-75.62620998251437!3f315.17593!4f0!5f0.7820865974627469" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a href="#" class="link">Ver demo</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container" data-aos="fade-up">
+      <h2>Formulario</h2>
+      <form id="contact-form" class="form" novalidate>
+        <div class="field">
+          <label for="name">Nombre</label>
+          <input id="name" name="name" type="text" placeholder="Tu nombre" required />
+          <small class="error"></small>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="tu@email.com" required />
+          <small class="error"></small>
+        </div>
+        <div class="field">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" placeholder="¿Cómo puedo ayudarte?" required></textarea>
+          <small class="error"></small>
+        </div>
+        <button type="submit" class="btn primary"><i class="fa-solid fa-paper-plane"></i> Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__content">
+      <p>&copy; <span id="year"></span> Mariana Acevedo y Matheiu Restrepo. Hecho con ❤️.</p>
+      <div class="social">
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
